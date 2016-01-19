@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/foodNvg" android:icon="@android:drawable/ic_menu_camera"
+            android:title="食" />
+        <item android:id="@+id/clothNvg" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="衣" />
+        <item android:id="@+id/liveNvg" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="住" />
+        <item android:id="@+id/transmitNvg" android:icon="@android:drawable/ic_menu_manage"
+            android:title="行" />
+        <item android:id="@+id/edcationNvg" android:icon="@android:drawable/ic_menu_manage"
+            android:title="育" />
+        <item android:id="@+id/etertainmentNvg" android:icon="@android:drawable/ic_menu_manage"
+            android:title="樂" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:id="@+id/foodBtn"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/food_img"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:background="@drawable/cloth_img"
+            android:id="@+id/clothBtn"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:background="@drawable/live_img"
+            android:id="@+id/liveBtn"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:background="@drawable/transmit_img"
+            android:id="@+id/transmitBtn"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:background="@drawable/edcation_img"
+            android:id="@+id/educationBtn"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="152dp"
+            android:background="@drawable/etertainment_img"
+            android:id="@+id/entertainmentBtn"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>
